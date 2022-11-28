@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    margin: 10px 40px;
+    justify-content:space-between;
+    font-size: larger;
+}
+.logo{
+    width:120px;
+    margin-left:
+}
+.navcategory{
+    font-size:larger;
+}
+.navsearch{
+    border: 1px solid black;
+    border-radius: 32px;
+    width: 45rem;
+    height: 4.1rem;
+    background-color: whitesmoke;
+}
+.navbusiness{
+    font-size: larger;
+}
+.login__button{
+    border: 2px solid black;
+    width: 100px;
+    height: 52px;
+    background-color: white;
+    font-weight: bolder;
+}
+.signin__button{
+    border: 2px solid black;
+    width: 100px;
+    height: 52px;
+    background-color: black;
+    font-weight: bolder;
+    color: white;
+}
+.globe__button{
+    border: 2px solid black;
+    height: 52px;
+    width: 50px;
+    background-color: white;
+}
+.first-section{
+    display:flex;
+    position:relative;
+}
+.headings{
+    width:31vw;
+    height: 11vw;
+    position:absolute;
+    top:80px;
+    left: 120px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+    padding: 2.4rem 2.5rem 0 1.4rem;
+    background-color: white;
+    margin-left: 30px;
+    line-height: 29px;
+}
+.main-headings{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.sub-headings{
+    font-family: sans-serif
+}
+.background{
+    object-fit: contain;
+    justify-content: center;
+    border-top-style: outset;
+    border-top-color: rgba(225, 220, 220, 0.983);
+    border-image-outset: 20px;
+    width: 100vw;
+    height: auto;
+    object-position:initial;
+}
+.head-sec-section{
+    padding: 2.3rem;
+}
+.cart{
+    width:30px;
+}
+.globe{
+    width:35px;
+}
+.globe{
+    width:32px;
+    margin-right: 5px;
+}
+.second-section h1{
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-weight: bold;
+}
+.second-section h4{
+    margin-top: 2rem;
+}
+.courses-nav{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    list-style-type: none;
+    font-size: large;
+    font-weight: bold;
+}
+.courses-selection{
+    Margin: 0px 30px;
+    border: 1px solid rgb(180, 179, 179);
+    padding: 20px 0px 20px 50px;
+}
+.courses-selection-header{
+    font-weight: bold;
+}
+.explore-python-button{
+    border: 2px solid black;
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    font-weight: bolder;
+    font-size: larger;
+}
+.python-images{
+    margin: 40px 20px 10px 3px;
+    display: flex;
+    justify-content: space-between;
+}
+.python-link{
+    width: 300px;
+}
+.third-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6rem;
+    padding:1.5rem 6rem;
+    background-color: whitesmoke;
+    width: 100%;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.student-viewing{
+    margin: 5rem 2.5rem;
+}
+.views-images{
+    margin: 20px 20px 10px 3px;
+    display: flex;
+    justify-content: space-between;
+}
+.fifth-section{
+    background-color: whitesmoke;
+    padding: 4rem 0rem;
+}
+.featured-topics{
+    margin-left: 2.5rem;
+    line-height: 3rem;
+}
+.featured-header h2{
+    font-weight: 650;
+    margin-bottom: 3rem;
+}
+th{
+    font-size: x-large;
+}
+td{
+    width: 30rem;
+    font-size: large;
+    font-weight: 650;
+}
+.student-figures{
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(142, 139, 139);
+}
+.explore-more-button{
+    border: 2px solid black;
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    font-weight: bolder;
+    font-size: larger;
+    background-color: white;
+}
+.sixth-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4.5rem;
+
+}
+.sixthsec-image img{
+    width:40rem;
+    padding: 4rem;
+}
+.sixthsec-text h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin-bottom: 3rem;   
+}
+.sixthsec-subtext{
+    width: 40rem;
+    line-height: 4rem;
+}
+.instructor-button{
+    width: 220px;
+    height: 10px;
+    background-color: black;
+    font-weight: bold;
+    font-size: larger;
+    color: white;
+    padding-bottom: 4rem;
+    margin-top: 2rem;
+}
+.seventh-section{
+    background-color: whitesmoke;
+    width: 100%;
+}
+.seventh-text{
+    text-align: center;
+}
+.seventh-text h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    padding: 3rem 0rem 0rem;
+}
+.seventh-img{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+}
+.img1{
+    width: 9rem;
+}
+.img2{
+    width: 4rem;
+}
+.img3{
+    width: 5.5rem;
+}
+.img4{
+    width: 9rem;
+}
+.img5{
+    width: 9rem;
+}
+.img6{
+    width: 9rem;
+}
+.eight-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.8rem;
+    padding-top: 4rem;
+}
+.eightsec-image img{
+    width:40rem;
+    padding: 4rem;
+}
+.eightsec-text h1{
+    color:rgb(167, 91, 238);
+    font-family: 'arial narrow';
+    /* margin-bottom: 3rem;    */
+}
+.eightsec-subtext{
+    width: 32rem;
+    line-height: 4rem;
+}
+.getudemy-button{
+    width: 220px;
+    height: 10px;
+    background-color: black;
+    font-weight: bold;
+    font-size: larger;
+    color: white;
+    padding-bottom: 4rem;
+    margin-top: 2rem;
+}
+.ninth-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    line-height: 5rem;
+
+}
+.ninthsec-image img{
+    width:40rem;
+    padding: 4rem;
+}
+.ninthsec-text h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    width:450px;
+    margin-bottom: 1.8rem;
+
+}
+.ninthsec-subtext{
+    width: 35rem;
+}
+.findout-button{
+    width: 170px;
+    height: 10px;
+    background-color: black;
+    font-weight: bold;
+    font-size: larger;
+    color: white;
+    padding-bottom: 4rem;
+    margin-top: 1rem;
+}
+.last-section{
+    width: 100%;
+    background-color: rgb(29, 27, 27);
+    color:white;
+}
+.top{
+    padding: 2rem 4rem;
+    line-height: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.top-text{
+    width:70%;
+}
+.globe__button2{
+    color: white;
+    border: 1px solid white;
+    background-color: black;
+    width: 200px;
+    padding: 0.5rem 0;
+    font-size: large;
+}
+.bottom{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+}
+.f-logo{
+    width: 150px;
+    z-index:10;
+}
