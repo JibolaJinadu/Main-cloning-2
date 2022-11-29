@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 .navbar{
-    margin: 10px 40px;
+    margin: 10px 20px;
     justify-content:space-between;
     font-size: larger;
     width: 90%;
+    min-width: 800px;
 }
 .logo{
     width:120px;
-    margin-left:
 }
 .navcategory{
     font-size:larger;
@@ -19,8 +19,8 @@
 .navsearch{
     border: 1px solid black;
     border-radius: 32px;
-    width: 45rem;
-    height: 4.1rem;
+    width: 30rem;
+    height: 4rem;
     background-color: whitesmoke;
 }
 .navbusiness{
@@ -35,7 +35,7 @@
 }
 .signin__button{
     border: 2px solid black;
-    width: 100px;
+    width: 90px;
     height: 52px;
     background-color: black;
     font-weight: bolder;
@@ -68,7 +68,8 @@
     font-weight: bolder;
 }
 .sub-headings{
-    font-family: sans-serif
+    font-family: sans-serif;
+    width:30rem;
 }
 .background{
     object-fit: contain;
