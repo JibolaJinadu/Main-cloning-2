@@ -3,48 +3,58 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    overflow-x:hidden;
+}
 .navbar{
-    margin: 10px 20px;
-    justify-content:space-between;
+    margin: 10px 0px;
+    display: flex;
+    justify-content:space-around;
     font-size: larger;
-    width: 90%;
-    min-width: 800px;
+    width: 100%;
+    padding: 0 2rem;
+
 }
 .logo{
-    width:120px;
+    width:90px;
 }
 .navcategory{
-    font-size:larger;
+    font-size:smaller;
 }
 .navsearch{
     border: 1px solid black;
     border-radius: 32px;
-    width: 30rem;
-    height: 4rem;
+    width: 35rem;
+    height: 2.8rem;
     background-color: whitesmoke;
 }
 .navbusiness{
-    font-size: larger;
+    font-size:small;
+}
+.teachudemy{
+    font-size:small;
 }
 .login__button{
-    border: 2px solid black;
-    width: 100px;
-    height: 52px;
+    border: 1px solid black;
+    width: 80px;
+    height: 42px;
     background-color: white;
     font-weight: bolder;
+    font-size: smaller;
 }
 .signin__button{
-    border: 2px solid black;
-    width: 90px;
-    height: 52px;
+    border: 1px solid black;
+    width: 80px;
+    height: 42px;
     background-color: black;
     font-weight: bolder;
     color: white;
+    font-size:small;
 }
 .globe__button{
-    border: 2px solid black;
-    height: 52px;
-    width: 50px;
+    border: 1px solid black;
+    height: 40px;
+    width: 40px;
     background-color: white;
 }
 .first-section{
@@ -52,16 +62,16 @@
     position:relative;
 }
 .headings{
-    width:31vw;
+    width:33vw;
     height: 11vw;
     position:absolute;
-    top:80px;
-    left: 120px;
+    top:50px;
+    left: 90px;
     box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
     padding: 2.4rem 2.5rem 0 1.4rem;
     background-color: white;
     margin-left: 30px;
-    line-height: 29px;
+    line-height: 20px;
 }
 .main-headings{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -69,7 +79,7 @@
 }
 .sub-headings{
     font-family: sans-serif;
-    width:30rem;
+    width:28rem;
 }
 .background{
     object-fit: contain;
@@ -77,29 +87,27 @@
     border-top-style: outset;
     border-top-color: rgba(225, 220, 220, 0.983);
     border-image-outset: 20px;
-    width: 100vw;
+    width: 100%;
     height: auto;
     object-position:initial;
 }
 .head-sec-section{
-    padding: 2.3rem;
+    padding: 2rem;
 }
 .cart{
     width:30px;
 }
 .globe{
-    width:35px;
-}
-.globe{
-    width:32px;
+    width:22px;
     margin-right: 5px;
 }
-.second-section h1{
+.second-section h2{
      font-family: Georgia, 'Times New Roman', Times, serif;
      font-weight: bold;
+     margin: 1rem 0;
 }
 .second-section h4{
-    margin-top: 2rem;
+    margin: 1rem 0;
 }
 .courses-nav{
     display: flex;
@@ -118,12 +126,12 @@
     font-weight: bold;
 }
 .explore-python-button{
-    border: 2px solid black;
-    width: 150px;
-    height: 50px;
+    border: 1px solid black;
+    width: 130px;
+    height: 45px;
     background-color: white;
-    font-weight: bolder;
-    font-size: larger;
+    font-weight: bold;
+    
 }
 .python-images{
     margin: 40px 20px 10px 3px;
@@ -131,7 +139,7 @@
     justify-content: space-between;
 }
 .python-link{
-    width: 300px;
+    width: 220px;
 }
 .third-section{
     display: flex;
@@ -160,16 +168,15 @@
     margin-left: 2.5rem;
     line-height: 3rem;
 }
-.featured-header h2{
-    font-weight: 650;
-    margin-bottom: 3rem;
+.featured-header h4{
+    font-weight: bolder;
+    margin-bottom: 1rem;
 }
 th{
-    font-size: x-large;
+    font-size: large;
 }
 td{
     width: 30rem;
-    font-size: large;
     font-weight: 650;
 }
 .student-figures{
@@ -177,44 +184,48 @@ td{
     font-family: 'Times New Roman', Times, serif;
     color: rgb(142, 139, 139);
 }
+.bestseller{
+    background-color:rgb(234, 203, 124);
+    font-size: small;
+    font-weight: lighter;
+}
 .explore-more-button{
-    border: 2px solid black;
-    width: 200px;
-    height: 50px;
+    border: 1px solid black;
+    width: 140px;
+    height: 30px;
     background-color: white;
+    background-color: white;
+    font-size: small;
     font-weight: bolder;
-    font-size: larger;
-    background-color: white;
+    padding-bottom: 3rem;
 }
 .sixth-container{
     display:flex;
     justify-content: center;
     align-items: center;
-    gap: 4.5rem;
+    gap: 1rem;
 
 }
 .sixthsec-image img{
-    width:40rem;
+    width:30rem;
     padding: 4rem;
 }
-.sixthsec-text h1{
+.sixthsec-text h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bolder;
-    margin-bottom: 3rem;   
+    font-weight: bold;
+    margin-bottom: 2rem;   
 }
 .sixthsec-subtext{
     width: 40rem;
-    line-height: 4rem;
 }
 .instructor-button{
-    width: 220px;
-    height: 10px;
+    width: 200px;
+    height: 8px;
     background-color: black;
     font-weight: bold;
-    font-size: larger;
     color: white;
-    padding-bottom: 4rem;
-    margin-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 1rem;
 }
 .seventh-section{
     background-color: whitesmoke;
@@ -223,7 +234,7 @@ td{
 .seventh-text{
     text-align: center;
 }
-.seventh-text h2{
+.seventh-text h4{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 600;
     padding: 3rem 0rem 0rem;
@@ -240,45 +251,43 @@ td{
     width: 4rem;
 }
 .img3{
-    width: 5.5rem;
+    width: 5rem;
 }
 .img4{
-    width: 9rem;
+    width: 8rem;
 }
 .img5{
-    width: 9rem;
+    width: 8rem;
 }
 .img6{
-    width: 9rem;
+    width: 8rem;
 }
 .eight-container{
     display:flex;
     justify-content: center;
     align-items: center;
-    gap: 2.8rem;
+    gap: 2rem;
     padding-top: 4rem;
 }
 .eightsec-image img{
-    width:40rem;
+    width:50rem;
     padding: 4rem;
 }
 .eightsec-text h1{
     color:rgb(167, 91, 238);
     font-family: 'arial narrow';
-    /* margin-bottom: 3rem;    */
 }
 .eightsec-subtext{
-    width: 32rem;
-    line-height: 4rem;
+    width: 26rem;
+    line-height: 3rem;
 }
 .getudemy-button{
-    width: 220px;
-    height: 10px;
+    width: 200px;
+    height: 5px;
     background-color: black;
     font-weight: bold;
-    font-size: larger;
     color: white;
-    padding-bottom: 4rem;
+    padding-bottom: 3rem;
     margin-top: 2rem;
 }
 .ninth-container{
@@ -290,10 +299,10 @@ td{
 
 }
 .ninthsec-image img{
-    width:40rem;
+    width:32rem;
     padding: 4rem;
 }
-.ninthsec-text h1{
+.ninthsec-text h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
     width:450px;
@@ -304,14 +313,14 @@ td{
     width: 35rem;
 }
 .findout-button{
-    width: 170px;
-    height: 10px;
+    width: 180px;
+    height: 5px;
     background-color: black;
     font-weight: bold;
-    font-size: larger;
     color: white;
     padding-bottom: 4rem;
-    margin-top: 1rem;
+
+    
 }
 .last-section{
     width: 100%;
@@ -320,7 +329,7 @@ td{
 }
 .top{
     padding: 2rem 4rem;
-    line-height: 2rem;
+    line-height: 1.8rem;
     display: flex;
     justify-content: space-between;
 }
@@ -330,21 +339,18 @@ td{
 .globe__button2{
     color: white;
     border: 1px solid white;
-    background-color: black;
-    width: 200px;
+    background-color:  rgb(29, 27, 27);
+    width: 150px;
     padding: 0.5rem 0;
     font-size: large;
 }
 .bottom{
     display:flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 3rem;
+    align-items:center;
+    padding: 0 3rem;
 }
 .f-logo{
-    width: 150px;
+    width: 90px;
     z-index:10;
 }
-@media (min-width: 1254px) {
-    
-  }
