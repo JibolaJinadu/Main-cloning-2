@@ -11,19 +11,19 @@ body{
     display: flex;
     justify-content:space-around;
     font-size: larger;
-    width: 100%;
-    padding: 0 2rem;
+    width: 101%;
+    padding: 1 2rem;
 
 }
 .logo{
-    width:90px;
+    width:91px;
 }
 .navcategory{
     font-size:smaller;
 }
 .navsearch{
-    border: 1px solid black;
-    border-radius: 32px;
+    border: 2px solid black;
+    border-radius: 33px;
     width: 35rem;
     height: 2.8rem;
     background-color: whitesmoke;
